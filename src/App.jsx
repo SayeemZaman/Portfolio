@@ -1,3 +1,4 @@
+import "./styles/style.scss";
 import Header from "./components/Header";
 
 export default function App() {
