@@ -6,9 +6,10 @@ export default {
       colors: {
         "rich-black": "#050B17",
         veronica: "#9A4EF6",
+        "light-veronica": "#b070ff",
         cornsilk: "#FFF7E0",
         "mikado-yellow": "#FBC42A",
-        "antiflash-white": "#E8EBF1",
+        "antiflash-white": "#9ca4b5",
         "antiflash-white-2": "#EFF0F4",
       },
     },
