@@ -4,7 +4,7 @@ import ServiceCard from "./ServiceCard";
 export default function Services() {
   return (
     <div className="sect bg-rich-black">
-      <SectHead name="Services" className="self-center" />
+      <SectHead name="Services" />
       <h2 className="text-2xl text-white font-bold self-center">
         Services I Offer
       </h2>
