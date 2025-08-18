@@ -1,0 +1,19 @@
+import SectHead from "./SectHead";
+import ServiceCard from "./ServiceCard";
+
+export default function Services() {
+  return (
+    <div className="sect bg-rich-black">
+      <SectHead name="Services" className="self-center" />
+      <h2 className="text-2xl text-white font-bold self-center">
+        Services I Offer
+      </h2>
+      <div>
+        <ServiceCard
+          title="Frontend Web Dev"
+          content="I can create websites using design clients provide me. I primarily make Portfolio & Landing pages, I complete each projects in 1-2 weeks. We can discuss price in messages or emails."
+        />
+      </div>
+    </div>
+  );
+}
