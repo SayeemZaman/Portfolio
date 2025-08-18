@@ -10,7 +10,7 @@ export default {
         cornsilk: "#FFF7E0",
         "mikado-yellow": "#FBC42A",
         "antiflash-white": "#9ca4b5",
-        "antiflash-white-2": "#EFF0F4",
+        "antiflash-white-2": "#878e9c",
       },
     },
   },

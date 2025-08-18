@@ -2,7 +2,7 @@ import profileImg from "../assets/profile.jpeg";
 
 export default function Hero() {
   return (
-    <div className="sect relative top-[80px] flex flex-col gap-[24px]">
+    <div className="sect relative top-[80px]">
       <p className="bg-cornsilk text-mikado-yellow text-base py-[12px] px-[16px] font-bold self-start">
         Hi! I'm Sayeem Zaman
       </p>

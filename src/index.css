@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .sect {
-  @apply my-[64px] mx-[24px];
+  @apply py-[64px] px-[24px] flex flex-col gap-[24px];
 }
 .prg {
   @apply text-antiflash-white font-medium text-base;
