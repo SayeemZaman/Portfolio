@@ -8,3 +8,15 @@
 .prg {
   @apply text-antiflash-white font-medium text-base;
 }
+input,
+textarea {
+  @apply py-[12px] px-[16px] border-2 border-antiflash-white w-full font-bold transition;
+}
+input::placeholder,
+textarea::placeholder {
+  @apply text-antiflash-white font-bold;
+}
+input:focus,
+textarea:focus {
+  @apply outline-none border-2 border-veronica;
+}
