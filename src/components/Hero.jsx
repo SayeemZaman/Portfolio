@@ -1,6 +1,10 @@
+import { useContext } from "react";
+import { ShowForm } from "../contexts/ShowForm";
 import profileImg from "../assets/profile.jpeg";
 
 export default function Hero() {
+  const { toggleForm } = useContext(ShowForm);
+
   return (
     <div className="sect relative top-[80px]">
       <p className="bg-cornsilk text-mikado-yellow text-base py-[12px] px-[16px] font-bold self-start">
@@ -10,7 +14,10 @@ export default function Hero() {
       <p className="prg">
         I build Portfolio & Landing pages using design clients provide me.
       </p>
-      <button className="self-start bg-veronica text-white font-bold py-[12px] px-[24px] hover:bg-light-veronica transition duration-300">
+      <button
+        onClick={toggleForm}
+        className="self-start bg-veronica text-white font-bold py-[12px] px-[24px] hover:bg-light-veronica transition duration-300"
+      >
         Contact
       </button>
       <img src={profileImg} alt="Profile picture" className="w-full" />

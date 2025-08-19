@@ -4,9 +4,15 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Cta from "./components/Cta";
+import Form from "./components/Form";
 import Footer from "./components/Footer";
+import { ShowForm, FormProvider } from "./contexts/ShowForm";
+import { useContext } from "react";
 
-export default function App() {
+function AppContent() {
+  const { showForm } = useContext(ShowForm);
+
   return (
     <>
       <Header />
@@ -15,7 +21,17 @@ export default function App() {
       <Services />
       <Skills />
       <Projects />
+      <Cta />
       <Footer />
+      {showForm && <Form />}
     </>
   );
+}
+
+export default function App(){
+  return (
+    <FormProvider>
+      <AppContent />
+    </FormProvider>
+  )
 }
