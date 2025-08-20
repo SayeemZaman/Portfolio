@@ -31,7 +31,6 @@ export default function Form() {
   }
 
   function handleSubmit(e) {
-    e.preventDefault();
     const newErrors = {};
 
     if (!name) newErrors.name = "Name is required";
@@ -41,6 +40,7 @@ export default function Form() {
     if (!msg) newErrors.msg = "Message is required";
 
     if (Object.keys(newErrors).length > 0) {
+      e.preventDefault();
       setErrors(newErrors);
     } else {
       setErrors({});
@@ -52,7 +52,8 @@ export default function Form() {
       <form
         onSubmit={handleSubmit}
         noValidate
-        action=""
+        action="https://getform.io/f/anlnqjka"
+        method="POST"
         className="w-full bg-white rounded-[16px] p-[32px] flex flex-col gap-[16px]"
       >
         <CloseBtn />
