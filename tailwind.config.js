@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: "media",
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
@@ -14,6 +15,9 @@ export default {
         "antiflash-white-2": "#878e9c",
         "raisin-black": "#1A212B",
         "paynes-gray": "#4C546C",
+        saffron: "#F8C430",
+        "cool-gray": "#787F9B",
+        "black-olive": "#282619",
       },
     },
   },
