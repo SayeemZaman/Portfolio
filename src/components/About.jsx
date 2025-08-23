@@ -45,7 +45,7 @@ function Info({ title, content }) {
 
 export default function About() {
   return (
-    <div className="sect">
+    <div id="about" className="sect">
       <SectHead className="self-start" name="About Me" />
       <h2 className="font-bold text-3xl">Hi! I'm Sayeem Zaman</h2>
 

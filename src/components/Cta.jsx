@@ -5,7 +5,7 @@ export default function Cta() {
   const { toggleForm } = useContext(ShowForm);
 
   return (
-    <div className="sect bg-rich-black">
+    <div id="contact" className="sect bg-rich-black">
       <h2 className="text-white text-3xl font-bold">Have a project in Mind?</h2>
       <button
         onClick={toggleForm}

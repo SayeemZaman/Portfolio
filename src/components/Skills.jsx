@@ -23,7 +23,7 @@ const data = [
 
 export default function Skills() {
   return (
-    <div className="sect">
+    <div id="skills" className="sect">
       <SectHead name="Skills" />
       <p className="prg text-center">I can bring your design into reality</p>
       <div className=" grid grid-cols-2 gap-[16px]">

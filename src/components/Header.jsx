@@ -11,7 +11,7 @@ export default function Header() {
         <p className="text-white text-xl font-bold">Sayeem</p>
         <NavBtn isActive={isActive} setIsActive={setIsActive} />
       </header>
-      {isActive && <Nav />}
+      {isActive && <Nav setIsActive={setIsActive} />}
     </div>
   );
 }

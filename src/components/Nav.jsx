@@ -7,7 +7,7 @@ const data = [
   { name: "Contact", link: "#contact" },
 ];
 
-export default function Nav() {
+export default function Nav({ setIsActive }) {
   return (
     <nav className="fixed top-[80px] z-10 bg-rich-black w-full py-[16px] px-[32px] border-t border-antiflash-white">
       <ul>
@@ -16,6 +16,7 @@ export default function Nav() {
             <a
               className="text-white font-xl font-medium center"
               href={item.link}
+              onClick={() => setIsActive(false)}
             >
               {item.name}
             </a>
