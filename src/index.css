@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 .sect {
-  @apply py-[64px] px-[24px] flex flex-col gap-[24px];
+  @apply py-[64px] px-[24px] flex flex-col gap-[24px] dark:bg-rich-black;
 }
 .prg {
-  @apply text-antiflash-white font-medium text-base;
+  @apply text-antiflash-white font-medium text-base dark:text-cool-gray;
 }
 input,
 textarea {

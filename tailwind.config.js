@@ -18,6 +18,7 @@ export default {
         saffron: "#F8C430",
         "cool-gray": "#787F9B",
         "black-olive": "#282619",
+        "raisin-black-2": "#1e252f",
       },
     },
   },

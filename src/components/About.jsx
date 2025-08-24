@@ -16,29 +16,35 @@ const social = [
     name: "github",
     icon: githubLogo,
     link: "https://github.com/SayeemZaman",
+    invert: true,
   },
   {
     name: "linkedin",
     icon: linkedinLogo,
     link: "https://linkedin.com/in/sayeem-zaman-55b911301",
+    invert: false,
   },
   {
     name: "x",
     icon: xLogo,
     link: "https://x.com/SayeemZaman",
+    invert: true,
   },
   {
     name: "instagram",
     icon: igLogo,
     link: "https://instagram.com/codebuild0/",
+    invert: false,
   },
 ];
 
 function Info({ title, content }) {
   return (
     <div className="flex flex-col gap-[8px]">
-      <p className="font-semibold text-antiflash-white-2">{title}</p>
-      <p className="font-semibold">{content}</p>
+      <p className="font-semibold text-antiflash-white-2 dark:paynes-gray-2">
+        {title}
+      </p>
+      <p className="font-semibold dark:text-white">{content}</p>
     </div>
   );
 }
@@ -47,7 +53,9 @@ export default function About() {
   return (
     <div id="about" className="sect">
       <SectHead className="self-start" name="About Me" />
-      <h2 className="font-bold text-3xl">Hi! I'm Sayeem Zaman</h2>
+      <h2 className="font-bold text-3xl dark:text-white">
+        Hi! I'm Sayeem Zaman
+      </h2>
 
       <p className="prg">
         I'm a Frontend Web Developer, I make Websites using the design clients
@@ -66,7 +74,13 @@ export default function About() {
       <p className="font-semibold text-antiflash-white-2">Social Media</p>
       <div className="flex gap-[12px]">
         {social.map((btn, index) => (
-          <Social key={index} name={btn.name} icon={btn.icon} link={btn.link} />
+          <Social
+            key={index}
+            id={index}
+            name={btn.name}
+            icon={btn.icon}
+            link={btn.link}
+          />
         ))}
       </div>
     </div>

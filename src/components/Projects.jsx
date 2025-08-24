@@ -27,7 +27,7 @@ const data = [
 
 export default function Projects() {
   return (
-    <div id="projects" className="sect">
+    <div id="projects" className="sect dark:bg-rich-black-2">
       <SectHead name="Selected Work" />
       <p className="prg text-center">These are some of my best projects</p>
       <div className="flex flex-col gap-[16px]">

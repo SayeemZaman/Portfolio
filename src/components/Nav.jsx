@@ -9,7 +9,7 @@ const data = [
 
 export default function Nav({ setIsActive }) {
   return (
-    <nav className="fixed top-[80px] z-10 bg-rich-black w-full py-[16px] px-[32px] border-t border-antiflash-white">
+    <nav className="fixed top-[80px] z-20 bg-rich-black w-full py-[16px] px-[32px]">
       <ul>
         {data.map((item, index) => (
           <li key={index} className="h-[48px] center">
