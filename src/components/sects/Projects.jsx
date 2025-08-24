@@ -1,8 +1,8 @@
-import SectHead from "./SectHead";
-import ProjectCard from "./ProjectCard";
-import ecom from "../assets/ecom-project.png";
-import form from "../assets/form-project.png";
-import preview from "../assets/preview-project.jpg";
+import SectHead from "../SectHead";
+import ProjectCard from "../ProjectCard";
+import ecom from "../../assets/ecom-project.png";
+import form from "../../assets/form-project.png";
+import preview from "../../assets/preview-project.jpg";
 
 const data = [
   {

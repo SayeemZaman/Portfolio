@@ -1,4 +1,4 @@
-import email from "../assets/email.png";
+import email from "../../assets/email.png";
 
 export default function Footer() {
   return (

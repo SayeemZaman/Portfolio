@@ -1,5 +1,5 @@
-import SectHead from "./SectHead";
-import ServiceCard from "./ServiceCard";
+import SectHead from "../SectHead";
+import ServiceCard from "../ServiceCard";
 
 export default function Services() {
   return (

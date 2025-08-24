@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { ShowForm } from "../contexts/ShowForm";
-import profileImg from "../assets/profile.jpeg";
+import { ShowForm } from "../../contexts/ShowForm";
+import profileImg from "../../assets/profile.jpeg";
 
 export default function Hero() {
   const { toggleForm } = useContext(ShowForm);

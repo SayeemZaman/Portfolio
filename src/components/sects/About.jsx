@@ -1,9 +1,9 @@
-import SectHead from "./SectHead";
-import Social from "./Social";
-import xLogo from "../assets/twitter.png";
-import linkedinLogo from "../assets/linkedin.png";
-import githubLogo from "../assets/github.png";
-import igLogo from "../assets/instagram.png";
+import SectHead from "../SectHead";
+import Social from "../Social";
+import xLogo from "../../assets/twitter.png";
+import linkedinLogo from "../../assets/linkedin.png";
+import githubLogo from "../../assets/github.png";
+import igLogo from "../../assets/instagram.png";
 
 const data = [
   { title: "Contact", content: "sayeemzaman00@gmail.com" },

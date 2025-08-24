@@ -1,13 +1,13 @@
-import SectHead from "./SectHead";
-import SkillCard from "./SkillCard";
-import html from "../assets/html-5.png";
-import css from "../assets/css-3.png";
-import js from "../assets/js.png";
-import jquery from "../assets/jquery.png";
-import git from "../assets/git.png";
-import sass from "../assets/sass.png";
-import react from "../assets/react.png";
-import tailwind from "../assets/tailwind.png";
+import SectHead from "../SectHead";
+import SkillCard from "../SkillCard";
+import html from "../../assets/html-5.png";
+import css from "../../assets/css-3.png";
+import js from "../../assets/js.png";
+import jquery from "../../assets/jquery.png";
+import git from "../../assets/git.png";
+import sass from "../../assets/sass.png";
+import react from "../../assets/react.png";
+import tailwind from "../../assets/tailwind.png";
 
 const lvl = ["Novice", "Beginner", "Proficient", "Advanced", "Expert"];
 const data = [

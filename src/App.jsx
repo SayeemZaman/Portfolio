@@ -1,12 +1,12 @@
 import Header from "./components/Header";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Services from "./components/Services";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Cta from "./components/Cta";
+import Hero from "./components/sects/Hero";
+import About from "./components/sects/About";
+import Services from "./components/sects/Services";
+import Skills from "./components/sects/Skills";
+import Projects from "./components/sects/Projects";
+import Cta from "./components/sects/Cta";
 import Form from "./components/Form";
-import Footer from "./components/Footer";
+import Footer from "./components/sects/Footer";
 import { ShowForm, FormProvider } from "./contexts/ShowForm";
 import { useContext } from "react";
 
@@ -28,10 +28,10 @@ function AppContent() {
   );
 }
 
-export default function App(){
+export default function App() {
   return (
     <FormProvider>
       <AppContent />
     </FormProvider>
-  )
+  );
 }
