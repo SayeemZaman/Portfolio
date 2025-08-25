@@ -38,9 +38,9 @@ const social = [
   },
 ];
 
-function Info({ title, content }) {
+function Info({ title, content, className }) {
   return (
-    <div className="flex flex-col gap-[8px]">
+    <div className={`flex flex-col gap-[8px] ${className}`}>
       <p className="font-semibold text-antiflash-white-2 dark:paynes-gray-2">
         {title}
       </p>
@@ -65,9 +65,14 @@ export default function About() {
         in 1-2 weeks. I hope you have design or a designer for your Project.
       </p>
 
-      <div className="flex flex-col gap-[16px]">
+      <div className="flex flex-col gap-[16px] md:!flex-row md:!justify-between md:flex-wrap">
         {data.map((item, index) => (
-          <Info key={index} title={item.title} content={item.content} />
+          <Info
+            key={index}
+            title={item.title}
+            content={item.content}
+            className="lg:flex-[1_1_auto]"
+          />
         ))}
       </div>
 

@@ -4,9 +4,9 @@ export default function ProjectCard({ img, title, desc, link }) {
   }
 
   return (
-    <div className="flex flex-col gap-[16px] border border-antiflash-white-2 hover:border-rich-black transition">
+    <div className="flex flex-col gap-[16px] border border-antiflash-white-2 hover:border-rich-black transition flex-[1_1_256px] max-w-[1024px]">
       <img src={img} />
-      <div className="flex flex-col p-[32px] gap-[16px] dark:text-white">
+      <div className="flex flex-col p-[32px] pt-[16px] gap-[16px] dark:text-white">
         <p className="text-2xl font-bold">{title}</p>
         <p className="prg">{desc}</p>
         <button

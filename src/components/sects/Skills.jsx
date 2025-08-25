@@ -26,7 +26,7 @@ export default function Skills() {
     <div id="skills" className="sect">
       <SectHead name="Skills" />
       <p className="prg text-center">I can bring your design into reality</p>
-      <div className=" grid grid-cols-2 gap-[16px]">
+      <div className=" flex flex-wrap justify-center gap-[16px] lg:px-[128px]">
         {data.map((skill, index) => (
           <SkillCard
             key={index}

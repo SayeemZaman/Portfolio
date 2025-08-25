@@ -30,7 +30,7 @@ export default function Projects() {
     <div id="projects" className="sect dark:bg-rich-black-2">
       <SectHead name="Selected Work" />
       <p className="prg text-center">These are some of my best projects</p>
-      <div className="flex flex-col gap-[16px]">
+      <div className="flex flex-col md:flex-row gap-[24px] md:flex-wrap">
         {data.map((project, index) => (
           <ProjectCard
             key={index}

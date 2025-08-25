@@ -1,5 +1,6 @@
 import NavBtn from "./NavBtn";
 import Nav from "./Nav";
+import DesktopNav from "./DesktopNav";
 import { useState } from "react";
 
 export default function Header() {
@@ -13,6 +14,7 @@ export default function Header() {
       >
         <p className="text-white text-xl font-bold">Sayeem</p>
         <NavBtn isActive={isActive} setIsActive={setIsActive} />
+        <DesktopNav />
       </header>
       {isActive && <Nav setIsActive={setIsActive} />}
     </div>
