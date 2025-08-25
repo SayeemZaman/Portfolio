@@ -27,7 +27,7 @@ const data = [
 
 export default function Projects() {
   return (
-    <div id="projects" className="sect dark:bg-rich-black-2">
+    <section id="projects" className="sect dark:bg-rich-black-2">
       <SectHead name="Selected Work" />
       <p className="prg text-center">These are some of my best projects</p>
       <div className="flex flex-col md:flex-row gap-[24px] md:flex-wrap">
@@ -41,6 +41,6 @@ export default function Projects() {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 }

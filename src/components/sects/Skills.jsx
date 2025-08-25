@@ -23,7 +23,7 @@ const data = [
 
 export default function Skills() {
   return (
-    <div id="skills" className="sect">
+    <section id="skills" className="sect">
       <SectHead name="Skills" />
       <p className="prg text-center">I can bring your design into reality</p>
       <div className=" flex flex-wrap justify-center gap-[16px] lg:px-[128px]">
@@ -36,6 +36,6 @@ export default function Skills() {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 }

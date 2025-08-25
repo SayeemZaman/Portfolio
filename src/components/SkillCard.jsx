@@ -9,7 +9,7 @@ export default function SkillCard({ icon, name, level }) {
           name === "JQuery" ? "dark:filter dark:invert" : ""
         }`}
         src={icon}
-        alt={`${icon} Icon`}
+        alt={`${name} Icon`}
       />
       <div className="center">
         <p className="font-bold dark:text-white">{name}</p>

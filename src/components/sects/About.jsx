@@ -51,11 +51,11 @@ function Info({ title, content, className }) {
 
 export default function About() {
   return (
-    <div id="about" className="sect">
+    <section id="about" className="sect">
       <SectHead className="self-start" name="About Me" />
-      <h2 className="font-bold text-3xl dark:text-white">
+      <h3 className="font-bold text-3xl dark:text-white">
         Hi! I'm Sayeem Zaman
-      </h2>
+      </h3>
 
       <p className="prg">
         I'm a Frontend Web Developer, I make Websites using the design clients
@@ -88,6 +88,6 @@ export default function About() {
           />
         ))}
       </div>
-    </div>
+    </section>
   );
 }

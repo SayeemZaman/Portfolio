@@ -6,7 +6,7 @@ export default function Hero() {
   const { toggleForm } = useContext(ShowForm);
 
   return (
-    <div
+    <section
       id="home"
       className="sect relative top-[80px] lg:!grid lg:!grid-cols-2 lg:!gap-[8px] lg:!p-0 lg:!mb-[80px]"
     >
@@ -34,6 +34,6 @@ export default function Hero() {
           className="w-full lg:h-full object-cover"
         />
       </div>
-    </div>
+    </section>
   );
 }

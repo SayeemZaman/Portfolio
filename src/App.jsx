@@ -16,11 +16,13 @@ function AppContent() {
   return (
     <>
       <Header />
-      <Hero />
-      <About />
-      <Services />
-      <Skills />
-      <Projects />
+      <main>
+        <Hero />
+        <About />
+        <Services />
+        <Skills />
+        <Projects />
+      </main>
       <Cta />
       <Footer />
       {showForm && <Form />}
